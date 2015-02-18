@@ -3,7 +3,15 @@ N Back working memory task, coded with the help of the Matlab Psychtoolbox. A nu
 
 # What does the taks do?
 
-There are two main functions *n_back_task_full()* and *n_back_task_training()*. In both functions the subject sees a series of colored rectangles and has to decide (by a press of the *space button*) whether the current rectangle matches the one that was shown *N* steps before. Number of difficulty levels, and number of color sequences within difficulty level can be specified and a break can be taken after each series. 
+There are two main functions: 
+```Matlab
+n_back_task_full()
+```
+```Matlab
+*n_back_task_training()
+```
+
+In both functions the subject sees a series of colored rectangles and has to decide (by a press of the *space button*) whether the current rectangle matches the one that was shown *N* steps before. Number of difficulty levels, and number of color sequences within difficulty level can be specified and a break can be taken after each series. 
 
 Several difficulty levels are included (from 2 to 5 steps back) and 8 color series are included per difficulty level. Each color series includes a sequence of 36 + n rectangles. The color series are generated such that within each series there a *12 matches* and *12 lures* (lures are rectangles which have matching colors to a rectangle before, but with a wrong offset in steps).
 
