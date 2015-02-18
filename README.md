@@ -8,7 +8,7 @@ There are two main functions:
 n_back_task_full()
 ```
 ```Matlab
-*n_back_task_training()
+n_back_task_training()
 ```
 
 In both functions the subject sees a series of colored rectangles and has to decide (by a press of the *space button*) whether the current rectangle matches the one that was shown *N* steps before. Number of difficulty levels, and number of color sequences within difficulty level can be specified and a break can be taken after each series. 
